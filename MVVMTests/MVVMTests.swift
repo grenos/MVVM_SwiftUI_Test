@@ -33,6 +33,7 @@ class MVVMTests: XCTestCase {
 		XCTAssertTrue(sut.users.isEmpty)
 		await sut.getUsers()
 		XCTAssertGreaterThan(sut.users.count, 0, "")
+		XCTAssertEqual(sut.users.first?.username, "Bobo")
 	}
 
 }
