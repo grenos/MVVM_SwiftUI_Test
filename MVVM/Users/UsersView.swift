@@ -22,11 +22,14 @@ struct UsersView: View {
 		}
 		
 		
-		.task { await viewModel.getUsers() }
+		.task {
+			await viewModel.getUsers()
+			await viewModel.makePost()
+		}
     }
 }
 
-
+ 
 
 
 struct UsersView_Previews: PreviewProvider {

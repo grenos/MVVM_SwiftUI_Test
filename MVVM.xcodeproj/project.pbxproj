@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D70057D274BE2F600760ED8 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D70057C274BE2F600760ED8 /* PostModel.swift */; };
 		7DBA3817274517C6008A3193 /* MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA3816274517C6008A3193 /* MVVMApp.swift */; };
 		7DBA381B274517C7008A3193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBA381A274517C7008A3193 /* Assets.xcassets */; };
 		7DBA381E274517C7008A3193 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBA381D274517C7008A3193 /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D70057C274BE2F600760ED8 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		7DBA3813274517C6008A3193 /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBA3816274517C6008A3193 /* MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMApp.swift; sourceTree = "<group>"; };
 		7DBA381A274517C7008A3193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				7DBA384127451803008A3193 /* UsersView.swift */,
 				7DBA38432745181B008A3193 /* UsersViewModel.swift */,
 				7DBA384527451883008A3193 /* UserModel.swift */,
+				7D70057C274BE2F600760ED8 /* PostModel.swift */,
 				7DBA3847274519E5008A3193 /* UserService.swift */,
 			);
 			path = Users;
@@ -280,6 +283,7 @@
 				7DBA38442745181B008A3193 /* UsersViewModel.swift in Sources */,
 				7DBA3848274519E5008A3193 /* UserService.swift in Sources */,
 				7DBA384A27452A52008A3193 /* ApiGenericError.swift in Sources */,
+				7D70057D274BE2F600760ED8 /* PostModel.swift in Sources */,
 				7DBA3817274517C6008A3193 /* MVVMApp.swift in Sources */,
 				7DBA384627451883008A3193 /* UserModel.swift in Sources */,
 				7DBA384227451803008A3193 /* UsersView.swift in Sources */,

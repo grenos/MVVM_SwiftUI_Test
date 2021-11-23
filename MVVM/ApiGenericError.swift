@@ -12,12 +12,14 @@ enum ApiGenericError: Error {
 	case requestFailed(description: String)
 	case responseUnsuccessful(description: String)
 	case invalidUrl(description: String)
+	case decodeFailed(description: String)
 	
 	var customDescription: String {
 		switch self {
 			case let .requestFailed(description): return "Request Failed error -> \(description)"
 			case let .responseUnsuccessful(description): return "Response Unsuccessful error -> \(description)"
 			case let .invalidUrl(description): return "Invalid url -> \(description)"
+			case let .decodeFailed(description): return "Decoding failed -> \(description)"
 		}
 	}
 }
